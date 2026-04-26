@@ -1,0 +1,36 @@
+:root {
+  color-scheme: light;
+  --bg: #eef5ff;
+  --panel: rgba(252, 254, 255, 0.9);
+  --surface: #e8f1fb;
+  --text: #18324a;
+  --muted: #66809a;
+  --line: #c9d9ea;
+  --accent: #6f9fdb;
+  --accent-strong: #4e7fb8;
+  --accent-soft: #ddeafb;
+  --warm-highlight: #bdd3ef;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Avenir Next", "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
